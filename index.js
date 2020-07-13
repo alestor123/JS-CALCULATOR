@@ -3,14 +3,14 @@ const { app, BrowserWindow} = require('electron')
 function createWindow() {
 
     const win = new BrowserWindow({
-        width: 250,
+        width: 235,
         height: 350,
         icon:'assets/icon.png',
         webPreferences: {
             nodeIntegration: true
         }
     })
-
+win.setMenuBarVisibility(false)
     // and load the index.html of the app.
     win.loadFile('index.html')
 }
