@@ -1,0 +1,19 @@
+{
+  "name": "calculator",
+  "version": "1.0.0",
+  "description": "This is a simple calculator using js and electron for more info refer to README.md DOCS",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alestor123/JS-CALCULATOR.git"
+  },
+  "author": "Alestor Aldous",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/alestor123/JS-CALCULATOR/issues"
+  },
+  "homepage": "https://github.com/alestor123/JS-CALCULATOR#readme"
+}
